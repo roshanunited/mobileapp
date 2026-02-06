@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+
+  <!-- IMPORTANT: match this path -->
+  <link rel="stylesheet" href="css/calculator.css">
+</head>
+<body>
+  <div class="back">
+    <button id="btn99" class="back" type="button" onclick="history.back()">back</button>
+  </div>
+<h1>Calculator</h1>
+
+<input type="number" id="num1" value="1">
+
+<select id="calcType">
+  <option value="type-add">+</option>
+  <option value="type-substract">-</option>
+  <option value="type-multiply">×</option>
+  <option value="type-divide">÷</option>
+</select>
+
+<input type="number" id="num2" value="2">
+
+<button id="btnEqual">＝</button>
+
+<div id="result"></div>
+
+<script src="calculator.js"></script>
+</body>
+</html>
